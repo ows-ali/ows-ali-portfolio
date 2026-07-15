@@ -1,25 +1,25 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Mail, MapPin, Send, Code2, Globe2, Play, Globe } from "lucide-react"
+import { MapPin, Send } from "lucide-react"
 import SectionHeading from "./SectionHeading"
+import { useLang } from "@/lib/LanguageProvider"
+import { GitHubIcon, LinkedInIcon, YouTubeIcon, MediumIcon } from "./Icons"
 
 const contactLinks = [
-  { href: "mailto:owaisali.cs@gmail.com", icon: Mail, label: "owaisali.cs@gmail.com" },
-  { href: "https://github.com/ows-ali", icon: Code2, label: "github.com/ows-ali" },
-  { href: "https://linkedin.com/in/ows-ali", icon: Globe2, label: "linkedin.com/in/ows-ali" },
-  { href: "https://youtube.com/@owaisali124", icon: Play, label: "youtube.com/@owaisali124" },
-  { href: "https://ows-ali.medium.com/", icon: Globe, label: "ows-ali.medium.com" },
+  { href: "https://github.com/ows-ali", icon: GitHubIcon, label: "github.com/ows-ali" },
+  { href: "https://linkedin.com/in/ows-ali", icon: LinkedInIcon, label: "linkedin.com/in/ows-ali" },
+  { href: "https://youtube.com/@owaisali124", icon: YouTubeIcon, label: "youtube.com/@owaisali124" },
+  { href: "https://ows-ali.medium.com/", icon: MediumIcon, label: "ows-ali.medium.com" },
 ]
 
 export default function Contact() {
+  const { t } = useLang()
+
   return (
     <section id="contact" className="py-24 px-4 sm:px-6 relative">
       <div className="max-w-4xl mx-auto">
-        <SectionHeading
-          title="Get in Touch"
-          subtitle="Have a project, idea, or just want to say hi? I'm always open to interesting conversations."
-        />
+        <SectionHeading title={t("contact.title")} subtitle={t("contact.subtitle")} />
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -28,11 +28,11 @@ export default function Contact() {
           transition={{ duration: 0.5 }}
           className="max-w-xl mx-auto"
         >
-          <div className="flex items-center justify-center gap-2 mb-8 text-sm text-zinc-500">
-            <MapPin size={14} className="text-purple-400" />
-            <span>Cottbus, Germany</span>
-            <span className="text-zinc-700">|</span>
-            <span className="text-green-400">Available immediately</span>
+          <div className="flex items-center justify-center gap-2 mb-8 text-sm text-muted">
+            <MapPin size={14} className="text-accent" />
+            <span>{t("contact.location")}</span>
+            <span className="text-border">|</span>
+            <span className="text-green">{t("contact.available")}</span>
           </div>
 
           <div className="flex flex-wrap justify-center gap-3 mb-10">
@@ -44,7 +44,7 @@ export default function Contact() {
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-4 py-2 rounded-full border border-zinc-800 bg-zinc-900/50 text-sm text-zinc-400 hover:text-purple-300 hover:border-purple-500/40 transition-all duration-300"
+                  className="flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-card text-sm text-muted hover:text-accent hover:border-accent-border transition-all duration-300"
                 >
                   <Icon size={14} />
                   <span className="hidden sm:inline">{link.label}</span>
@@ -62,36 +62,32 @@ export default function Contact() {
               <input
                 type="text"
                 name="name"
-                placeholder="Your name"
+                placeholder={t("contact.name_placeholder")}
                 required
-                className="w-full px-4 py-3 rounded-lg bg-zinc-900/60 border border-zinc-800 text-zinc-100 placeholder-zinc-600 text-sm focus:outline-none focus:border-purple-500/50 transition-colors"
+                className="w-full px-4 py-3 rounded-lg bg-card border border-border text-text placeholder-subtle text-sm focus:outline-none focus:border-accent-border transition-colors"
               />
               <input
                 type="email"
                 name="email"
-                placeholder="Your email"
+                placeholder={t("contact.email_placeholder")}
                 required
-                className="w-full px-4 py-3 rounded-lg bg-zinc-900/60 border border-zinc-800 text-zinc-100 placeholder-zinc-600 text-sm focus:outline-none focus:border-purple-500/50 transition-colors"
+                className="w-full px-4 py-3 rounded-lg bg-card border border-border text-text placeholder-subtle text-sm focus:outline-none focus:border-accent-border transition-colors"
               />
             </div>
             <textarea
               name="message"
               rows={4}
-              placeholder="Tell me about your project..."
+              placeholder={t("contact.message_placeholder")}
               required
-              className="w-full px-4 py-3 rounded-lg bg-zinc-900/60 border border-zinc-800 text-zinc-100 placeholder-zinc-600 text-sm focus:outline-none focus:border-purple-500/50 transition-colors resize-none"
+              className="w-full px-4 py-3 rounded-lg bg-card border border-border text-text placeholder-subtle text-sm focus:outline-none focus:border-accent-border transition-colors resize-none"
             />
-            <input
-              type="hidden"
-              name="_next"
-              value="https://portfolio-ows-ali.vercel.app/thanks"
-            />
+            <input type="hidden" name="_next" value="https://portfolio-ows-ali.vercel.app/thanks" />
             <button
               type="submit"
-              className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-purple-600 hover:bg-purple-500 text-white text-sm font-medium transition-all duration-300"
+              className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-accent text-inverse text-sm font-medium transition-all duration-300"
             >
               <Send size={14} />
-              Send Message
+              {t("contact.send")}
             </button>
           </form>
         </motion.div>

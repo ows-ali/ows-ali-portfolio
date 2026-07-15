@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "projects": "Projekte",
+    "experience": "Erfahrung",
+    "skills": "Kenntnisse",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "available": "Für Zusammenarbeit offen",
+    "hi": "Hallo, ich bin",
+    "name": "Owais Ali",
+    "tagline": "KI-Entwickler und Full-Stack-Ingenieur — ich entwickle intelligente Systeme und moderne Webanwendungen. Derzeit MSc in KI, offen für spannende Herausforderungen.",
+    "scroll": "Zum Erkunden scrollen"
+  },
+  "about": {
+    "title": "Über mich",
+    "subtitle": "KI-Entwickler im Studium, Full-Stack-Ingenieur aus Berufung",
+    "p1": "Ich absolviere derzeit meinen MSc in Künstlicher Intelligenz an der BTU Cottbus, Deutschland, mit einem Erasmus-Austausch an der Universität Triest, Italien. Meine Reise umfasst Full-Stack-Entwicklung, KI/ML und Mobile Development.",
+    "p2": "Ich arbeite an der Schnittstelle von KI und Produktionsentwicklung — von LLM-gestützten Dokumentenpipelines und RAG-Systemen bis hin zur Architektur von React-Anwendungen, die von Millionen genutzt werden.",
+    "p3": "Ich teile mein Wissen durch YouTube-Tutorials, Medium-Artikel und Open Source. Außerdem betreue ich angehende Entwickler und unterrichte als Session Lead bei Udacity.",
+    "p4": "Derzeit erkunde ich neue Kooperationsmöglichkeiten in den Bereichen KI, Full-Stack-Entwicklung und technische Beratung."
+  },
+  "stats": {
+    "years": "Jahre Erfahrung",
+    "ai": "KI-Projekte",
+    "fs": "Full-Stack-Projekte",
+    "yt": "YouTube-Serien"
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "KI-Systeme, Full-Stack-Plattformen und Mobile-Tools, die ich entwickelt habe",
+    "all": "Alle Projekte",
+    "ai": "KI / ML",
+    "fullstack": "Full Stack",
+    "mobile": "Mobile & CLI"
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "subtitle": "Über 6 Jahre Entwicklung von Produkten in den Bereichen Fintech, Immobilien, Agrartechnologie und mehr"
+  },
+  "exp": {
+    "creative": {
+      "period": "Aug. 2023 — Dez. 2024",
+      "role": "Senior Software Engineer",
+      "company": "Creative Chaos (Remote)",
+      "project": "Foxtons — Britische Immobilienplattform",
+      "p1": "Entwicklung der nächsten Frontend-Generation mit React, Next.js, TypeScript",
+      "p2": "Zusammenarbeit mit Designern, Backend-Ingenieuren und QA zur Auslieferung von Funktionen",
+      "p3": "Leistungsoptimierung durch Code-Splitting, Lazy Loading und Best Practices"
+    },
+    "din": {
+      "period": "Sep. 2022 — Feb. 2023",
+      "role": "Software Engineer",
+      "company": "DIN Global (DBank), Karachi",
+      "project": "Digitale Banking-Plattform (17,6 Mio. $ Seed-Finanzierung)",
+      "p1": "Entwicklung interner Tools und kundenorientierter Frontend-Module",
+      "p2": "Aufbau automatisierter E2E- und Komponententests mit über 80% Abdeckung",
+      "p3": "Reduzierung von Regressionen in internationalen Fintech-Produkten"
+    },
+    "ricult": {
+      "period": "Mai 2021 — Apr. 2022",
+      "role": "Full Stack Developer",
+      "company": "Ricult (Remote)",
+      "project": "KI-gestützte Agrartechnologie-Plattform (MIT-gegründet)",
+      "p1": "Entwicklung von Full-Stack-Funktionen mit Python, Flask und Ionic",
+      "p2": "Entwicklung von Web- und Mobilanwendungen für Landwirte weltweit",
+      "p3": "Zusammenarbeit mit internationalen Teams in agiler Umgebung"
+    },
+    "bankalfalah": {
+      "period": "Jan. 2019 — Dez. 2020",
+      "role": "Software Developer",
+      "company": "Bank Alfalah Ltd., Karachi",
+      "project": "Interne Bankautomation & Digitales Kontoeröffnung",
+      "p1": "Entwicklung von Workflow-Automation mit React Native und IBM BPM",
+      "p2": "Digitalisierung interner Bankabläufe für den Unternehmenseinsatz",
+      "p3": "Automatisierung der Qualitätssicherung mit Appium-basierten Tests"
+    },
+    "lakson": {
+      "period": "Sep. 2017 — Jan. 2019",
+      "role": "Software Engineer",
+      "company": "Lakson Business Solutions, Karachi",
+      "project": "OTT-TV-Plattform — Abonnementverwaltung",
+      "p1": "Entwicklung von Backend-Modulen und CRUD-Anwendungen mit PHP Yii2 und MySQL",
+      "p2": "Erstellung von REST-APIs für Drittanbieter-Integrationen",
+      "p3": "Unterstützung von Kunden-Onboarding und Abonnementverwaltung"
+    },
+    "udacity": {
+      "period": "Teilzeit",
+      "role": "Session Lead (Teaching Assistant)",
+      "company": "Udacity — Full Stack Nano Degree",
+      "project": "Python & Flask Full Stack Nano Degree",
+      "p1": "Betreuung von Studierenden im Full-Stack-Webentwicklung-Curriculum",
+      "p2": "Unterstützung bei Python, Flask und Webentwicklungskonzepten"
+    }
+  },
+  "skills": {
+    "title": "Kenntnisse & Technologien",
+    "subtitle": "Ein breites Toolkit für KI, Full-Stack und Infrastruktur"
+  },
+  "services": {
+    "title": "Was ich anbiete",
+    "subtitle": "Entwicklung, Lehre und Problemlösung — so kann ich helfen",
+    "fs_title": "Full-Stack-Entwicklung",
+    "fs_desc": "React, Next.js, TypeScript, Python — von der Konzeption bis zur Produktion. Ich entwickle moderne, skalierbare Webanwendungen.",
+    "ai_title": "KI- & LLM-Lösungen",
+    "ai_desc": "RAG-Pipelines, Dokumentenextraktion, Agentensysteme, Prompt Engineering — Integration von KI in echte Produkte.",
+    "guide_title": "Technische Beratung",
+    "guide_desc": "Architektur-Reviews, Code-Qualität, Best Practices. Ich helfe Teams, ihre Entwicklungs- und KI-Fähigkeiten zu verbessern.",
+    "mentor_title": "Mentoring & Lehre",
+    "mentor_desc": "Von Udacity TA bis zu YouTube-Tutorials — ich zerlege komplexe Themen in klares, umsetzbares Wissen.",
+    "cta": "Derzeit offen für neue Kooperationen — lassen Sie uns sprechen"
+  },
+  "content": {
+    "title": "Lehre & Inhalte",
+    "subtitle": "Ich teile, was ich baue — auf YouTube, Medium und als Udacity TA",
+    "yt_title": "Next.js Tutorial-Serie",
+    "yt_desc": "Live-Coding-Serie auf YouTube zum Bau einer Full-Stack-Todo-App mit Next.js, Drizzle ORM und Deployment.",
+    "medium_title": "Medium-Artikel",
+    "medium_desc": "Artikel über Automatisierung, KI und Webentwicklung — inklusive eines beliebten Instagram-Bot-Tutorials.",
+    "udacity_title": "Udacity Session Lead",
+    "udacity_desc": "Teaching Assistant für den Full Stack Nano Degree — Betreuung von Studierenden in Python und Flask."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Haben Sie ein Projekt, eine Idee oder möchten Sie einfach Hallo sagen? Ich bin immer offen für interessante Gespräche.",
+    "location": "Cottbus, Deutschland",
+    "available": "Sofort verfügbar",
+    "name_placeholder": "Ihr Name",
+    "email_placeholder": "Ihre E-Mail",
+    "message_placeholder": "Erzählen Sie mir von Ihrem Projekt...",
+    "send": "Nachricht senden",
+    "thanks": "Vielen Dank! Ich melde mich bald bei Ihnen."
+  },
+  "footer": "Erstellt mit Next.js & Tailwind CSS",
+  "theme": {
+    "light": "Hell",
+    "dark": "Dunkel"
+  },
+  "lang": {
+    "en": "EN",
+    "de": "DE"
+  }
+}

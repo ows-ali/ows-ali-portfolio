@@ -1,0 +1,144 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "available": "Available for collaborations",
+    "hi": "Hi, I'm",
+    "name": "Owais Ali",
+    "tagline": "AI developer and full stack engineer — building intelligent systems and modern web applications. Currently pursuing MSc in AI, open to interesting challenges.",
+    "scroll": "Scroll to explore"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "AI developer by study, full stack engineer by trade",
+    "p1": "I'm currently pursuing my MSc in Artificial Intelligence at BTU Cottbus, Germany, with an Erasmus exchange at the University of Trieste, Italy. My journey spans full stack engineering, AI/ML, and mobile development.",
+    "p2": "I thrive at the intersection of AI and production engineering — from building LLM-powered document pipelines and RAG systems to architecting React applications serving millions.",
+    "p3": "I share what I learn through YouTube tutorials, Medium articles, and open source. I also mentor aspiring developers and teach as a Session Lead at Udacity.",
+    "p4": "Currently exploring new collaborations in AI, full stack development, and technical guidance."
+  },
+  "stats": {
+    "years": "Years Building",
+    "ai": "AI Projects",
+    "fs": "Full Stack Projects",
+    "yt": "YouTube Tutorials"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "AI systems, full stack platforms, and mobile tools I've built",
+    "all": "All Projects",
+    "ai": "AI / ML",
+    "fullstack": "Full Stack",
+    "mobile": "Mobile & CLI"
+  },
+  "experience": {
+    "title": "Experience",
+    "subtitle": "6+ years building products across fintech, real estate, agritech, and more"
+  },
+  "exp": {
+    "creative": {
+      "period": "Aug 2023 — Dec 2024",
+      "role": "Senior Software Engineer",
+      "company": "Creative Chaos (Remote)",
+      "project": "Foxtons — UK-based public real estate platform",
+      "p1": "Developed next-generation frontend using React, Next.js, TypeScript",
+      "p2": "Collaborated with designers, backend engineers, and QA to deliver features",
+      "p3": "Optimized performance via code splitting, lazy loading, and best practices"
+    },
+    "din": {
+      "period": "Sep 2022 — Feb 2023",
+      "role": "Software Engineer",
+      "company": "DIN Global (DBank), Karachi",
+      "project": "Digital banking platform ($17.6M seed round)",
+      "p1": "Developed internal tools and customer-facing frontend modules",
+      "p2": "Built automated E2E and component tests with 80%+ coverage",
+      "p3": "Reduced regression issues across international fintech products"
+    },
+    "ricult": {
+      "period": "May 2021 — Apr 2022",
+      "role": "Full Stack Developer",
+      "company": "Ricult (Remote)",
+      "project": "AI-powered AgriTech platform (MIT-founded)",
+      "p1": "Built full-stack features using Python, Flask, and Ionic",
+      "p2": "Developed web and mobile applications supporting farmers globally",
+      "p3": "Worked with international teams in Agile environment"
+    },
+    "bankalfalah": {
+      "period": "Jan 2019 — Dec 2020",
+      "role": "Software Developer",
+      "company": "Bank Alfalah Ltd., Karachi",
+      "project": "Internal Banking Automation & Digital Account Opening",
+      "p1": "Developed workflow automation using React Native and IBM BPM",
+      "p2": "Digitized internal banking operations for enterprise use",
+      "p3": "Automated QA with Appium-based test automation"
+    },
+    "lakson": {
+      "period": "Sep 2017 — Jan 2019",
+      "role": "Software Engineer",
+      "company": "Lakson Business Solutions, Karachi",
+      "project": "OTT TV Platform — Subscription Management",
+      "p1": "Developed backend modules and CRUD applications with PHP Yii2 + MySQL",
+      "p2": "Built REST APIs for third-party integrations",
+      "p3": "Supported customer onboarding and subscription management"
+    },
+    "udacity": {
+      "period": "Part-time",
+      "role": "Session Lead (Teaching Assistant)",
+      "company": "Udacity — Full Stack Nano Degree",
+      "project": "Python & Flask Full Stack Nano Degree",
+      "p1": "Guided students through the full stack web development curriculum",
+      "p2": "Assisted with Python, Flask, and web development concepts"
+    }
+  },
+  "skills": {
+    "title": "Skills & Technologies",
+    "subtitle": "A broad toolkit spanning AI, full stack, and infrastructure"
+  },
+  "services": {
+    "title": "What I Do",
+    "subtitle": "Building, teaching, and solving — here's how I can help",
+    "fs_title": "Full Stack Development",
+    "fs_desc": "React, Next.js, TypeScript, Python — from concept to production. I build modern, scalable web applications.",
+    "ai_title": "AI & LLM Solutions",
+    "ai_desc": "RAG pipelines, document extraction, agent systems, prompt engineering — integrating AI into real products.",
+    "guide_title": "Technical Guidance",
+    "guide_desc": "Architecture reviews, code quality, best practices. I help teams level up their engineering and AI capabilities.",
+    "mentor_title": "Mentoring & Teaching",
+    "mentor_desc": "From Udacity TA to YouTube tutorials — I break down complex topics into clear, actionable knowledge.",
+    "cta": "Currently exploring new collaborations — let's talk"
+  },
+  "content": {
+    "title": "Teaching & Content",
+    "subtitle": "I share what I build — on YouTube, Medium, and as a Udacity TA",
+    "yt_title": "Next.js Tutorial Series",
+    "yt_desc": "Live coding series on YouTube building a full-stack Todo app with Next.js, Drizzle ORM, and deployment.",
+    "medium_title": "Medium Articles",
+    "medium_desc": "Writing about automation, AI, and web development — including a popular Instagram bot tutorial.",
+    "udacity_title": "Udacity Session Lead",
+    "udacity_desc": "Teaching Assistant for the Full Stack Nano Degree — guiding students through Python and Flask web development."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have a project, idea, or just want to say hi? I'm always open to interesting conversations.",
+    "location": "Cottbus, Germany",
+    "available": "Available immediately",
+    "name_placeholder": "Your name",
+    "email_placeholder": "Your email",
+    "message_placeholder": "Tell me about your project...",
+    "send": "Send Message",
+    "thanks": "Thank you! I'll get back to you soon."
+  },
+  "footer": "Built with Next.js & Tailwind CSS",
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "lang": {
+    "en": "EN",
+    "de": "DE"
+  }
+}

@@ -1,3 +1,6 @@
+"use client"
+
+import Navbar from "@/components/Navbar"
 import Hero from "@/components/Hero"
 import About from "@/components/About"
 import Projects from "@/components/Projects"
@@ -6,10 +9,14 @@ import Skills from "@/components/Skills"
 import Services from "@/components/Services"
 import Content from "@/components/Content"
 import Contact from "@/components/Contact"
+import { useLang } from "@/lib/LanguageProvider"
 
 export default function Home() {
+  const { t } = useLang()
+
   return (
     <main>
+      <Navbar />
       <Hero />
       <About />
       <Projects />
@@ -18,8 +25,8 @@ export default function Home() {
       <Services />
       <Content />
       <Contact />
-      <footer className="py-8 text-center text-sm text-zinc-600 border-t border-zinc-800/50">
-        <p>&copy; {new Date().getFullYear()} Owais Ali. Built with Next.js & Tailwind CSS.</p>
+      <footer className="py-8 text-center text-sm text-subtle border-t border-border">
+        <p>&copy; {new Date().getFullYear()} Owais Ali. {t("footer")}</p>
       </footer>
     </main>
   )
