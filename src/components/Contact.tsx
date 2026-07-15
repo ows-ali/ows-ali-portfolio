@@ -81,7 +81,7 @@ export default function Contact() {
               required
               className="w-full px-4 py-3 rounded-lg bg-card border border-border text-text placeholder-subtle text-sm focus:outline-none focus:border-accent-border transition-colors resize-none"
             />
-            <input type="hidden" name="_next" value="https://portfolio-ows-ali.vercel.app/thanks" />
+            <input type="hidden" name="_next" value="https://ows-ali.vercel.app/thanks" />
             <button
               type="submit"
               className="w-full flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-accent text-inverse text-sm font-medium transition-all duration-300"

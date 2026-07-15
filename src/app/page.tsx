@@ -9,6 +9,7 @@ import Skills from "@/components/Skills"
 import Services from "@/components/Services"
 import Content from "@/components/Content"
 import Contact from "@/components/Contact"
+import ChatBubble from "@/components/ChatBubble"
 import { useLang } from "@/lib/LanguageProvider"
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       <Services />
       <Content />
       <Contact />
+      <ChatBubble />
       <footer className="py-8 text-center text-sm text-subtle border-t border-border">
         <p>&copy; {new Date().getFullYear()} Owais Ali. {t("footer")}</p>
       </footer>
