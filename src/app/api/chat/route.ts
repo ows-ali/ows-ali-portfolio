@@ -84,7 +84,7 @@ export async function POST(req: Request) {
       body: JSON.stringify({
 
 
-        model: process.env.GROQ_API_MODEL,
+        model: process.env.GROQ_API_MODEL || "llama-3.1-8b-instant",
         messages: [
           { role: "system", content: systemPrompt },
           { role: "user", content: message },
